@@ -1,4 +1,4 @@
-import { vocabCollège } from './chapitre_collège.js';
+import { vocabCollège } from './chapitre_college.js'; // KORRIGIERT
 import { vocab8h15 } from './chapitre_8h15.js';
 import { vocab8h20 } from './chapitre_8h20.js';
 
