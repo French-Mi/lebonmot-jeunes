@@ -5,7 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Le-BonMot/',
+  // KORREKTUR: Stellt sicher, dass alle Pfade für Netlify korrekt sind.
+  base: '/',
   plugins: [
     vue(),
   ],
