@@ -1,0 +1,20 @@
+export const vocab8h20 = [
+    { "french": "le début", "german": "der Anfang", "exampleFrench": "C'est le début du film.", "exampleGerman": "Das ist der Anfang des Films." },
+    { "french": "le cours", "german": "der Unterricht", "exampleFrench": "Le cours de français commence.", "exampleGerman": "Der Französischunterricht beginnt." },
+    { "french": "encore", "german": "noch", "exampleFrench": "Tu es encore là ?", "exampleGerman": "Bist du noch da?" },
+    { "french": "encore une fois", "german": "noch einmal", "exampleFrench": "Répétez la phrase encore une fois.", "exampleGerman": "Wiederholen Sie den Satz noch einmal." },
+    { "french": "tout près", "german": "ganz nahe", "exampleFrench": "J'habite tout près de l'école.", "exampleGerman": "Ich wohne ganz nahe bei der Schule." },
+    { "french": "énorme", "german": "riesig", "exampleFrench": "L'éléphant est énorme.", "exampleGerman": "Der Elefant ist riesig." },
+    { "french": "un chanteur", "german": "ein Sänger", "exampleFrench": "C'est un chanteur célèbre.", "exampleGerman": "Das ist ein berühmter Sänger." },
+    { "french": "une chanteuse", "german": "eine Sängerin", "exampleFrench": "Angèle est une chanteuse belge.", "exampleGerman": "Angèle ist eine belgische Sängerin." },
+    { "french": "moche", "german": "hässlich", "exampleFrench": "Je trouve ce pantalon moche.", "exampleGerman": "Ich finde diese Hose hässlich." },
+    { "french": "une clé", "german": "ein Schlüssel", "exampleFrench": "Où est ma clé ?", "exampleGerman": "Wo ist mein Schlüssel?" },
+    { "french": "le porte-clés", "german": "der Schlüsselbund", "exampleFrench": "J'ai un nouveau porte-clés.", "exampleGerman": "Ich habe einen neuen Schlüsselbund." },
+    { "french": "un truc", "german": "ein Ding, eine Sache", "exampleFrench": "C'est quoi, ce truc ?", "exampleGerman": "Was ist das für ein Ding?" },
+    { "french": "le portable", "german": "das Handy", "exampleFrench": "Mon portable n'a plus de batterie.", "exampleGerman": "Mein Handy hat keinen Akku mehr." },
+    { "french": "le lecteur MP3", "german": "der MP3 Player", "exampleFrench": "J'écoute de la musique avec mon lecteur MP3.", "exampleGerman": "Ich höre Musik mit meinem MP3 Player." },
+    { "french": "Ce n’est pas ça", "german": "Das ist es nicht", "exampleFrench": "La réponse est 5 ? Non, ce n'est pas ça.", "exampleGerman": "Ist die Antwort 5? Nein, das ist es nicht." },
+    { "french": "le poil", "german": "das Tierhaar", "exampleFrench": "Mon chat a des poils longs.", "exampleGerman": "Meine Katze hat lange Haare." },
+    { "french": "le biscuit", "german": "der Keks", "exampleFrench": "Je mange un biscuit au chocolat.", "exampleGerman": "Ich esse einen Schokoladenkeks." },
+    { "french": "ne…pas trop", "german": "nicht sehr", "exampleFrench": "Je n'aime pas trop les épinards.", "exampleGerman": "Ich mag Spinat nicht sehr." }
+];
