@@ -3,17 +3,17 @@ import { ref, onMounted } from 'vue';
 import { RouterView } from 'vue-router'
 import NotificationToast from '@/components/NotificationToast.vue';
 
-// NEU: Zustand für die Sichtbarkeit des Splash Screens
+// Zustand für die Sichtbarkeit des Splash Screens
 const showSplash = ref(true);
 
-// NEU: Logik, um den Splash Screen nach 3 Sekunden auszublenden
+// Logik, um den Splash Screen nach 3 Sekunden auszublenden
 onMounted(() => {
   setTimeout(() => {
     showSplash.value = false;
   }, 3000);
 });
 
-// NEU: Funktion, um den Splash Screen bei Klick auszublenden
+// Funktion, um den Splash Screen bei Klick auszublenden
 function hideSplash() {
   showSplash.value = false;
 }
@@ -21,7 +21,26 @@ function hideSplash() {
 
 <template>
   <div v-if="showSplash" class="splash-screen" @click="hideSplash">
-    <svg class="splash-logo" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="flag-clip"><rect x="108" y="80.5" width="84" height="54" rx="5" ry="5" /></clipPath></defs><rect width="300" height="300" rx="45" ry="45" fill="#3A6EA5" /><g id="speech-bubble"><rect x="90" y="62.5" width="120" height="90" rx="28" ry="28" fill="white" /><polygon points="120,152 140,152 130,167" fill="white" /></g><g id="flag" clip-path="url(#flag-clip)"><rect x="108" y="80.5" width="28" height="54" fill="#0055A4" /><rect x="136" y="80.5" width="28" height="54" fill="#FFFFFF" /><rect x="164" y="80.5" width="28" height="54" fill="#EF4135"/></g><rect x="108" y="80.5" width="84" height="54" rx="5" ry="5" fill="none" stroke="#ccc" stroke-width="1"/><text x="150" y="230" font-family="Georgia, serif" font-size="45px" font-weight="bold" fill="white" text-anchor="middle">le BonMot</text></svg>
+    <svg class="splash-logo" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <clipPath id="flag-clip-jeunes">
+          <rect x="108" y="60.5" width="84" height="54" rx="5" ry="5" />
+        </clipPath>
+      </defs>
+      <rect width="300" height="300" rx="45" ry="45" fill="#3A6EA5" />
+      <g id="speech-bubble-jeunes">
+        <rect x="90" y="42.5"  width="120" height="90" rx="28" ry="28" fill="white" />
+        <polygon points="120,132 140,132 130,147" fill="white" />
+      </g>
+      <g id="flag-jeunes" clip-path="url(#flag-clip-jeunes)">
+        <rect x="108" y="60.5" width="28" height="54" fill="#0055A4" />
+        <rect x="136" y="60.5" width="28" height="54" fill="#FFFFFF" />
+        <rect x="164" y="60.5" width="28" height="54" fill="#EF4135" />
+      </g>
+      <rect x="108" y="60.5" width="84" height="54" rx="5" ry="5" fill="none" stroke="#ccc" stroke-width="1"/>
+      <text x="150" y="200" font-family="Georgia, serif" font-size="45px" font-weight="bold" fill="white" text-anchor="middle">le BonMot</text>
+      <text x="150" y="255" class="handwritten" font-size="48px" fill="white" text-anchor="middle">Jeunes</text>
+    </svg>
   </div>
 
   <div v-else class="app-shell-container">
@@ -30,7 +49,7 @@ function hideSplash() {
       <header class="header">
         <svg class="header-logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M85 22.0001C85 18.1341 81.866 15.0001 78 15.0001H22C18.134 15.0001 15 18.1341 15 22.0001V62.0001C15 65.8661 18.134 69.0001 22 69.0001H35V81.0001L50.5 69.0001H78C81.866 69.0001 85 65.8661 85 62.0001V22.0001Z" fill="white"/><rect x="25" y="25.0001" width="16.6667" height="34" fill="#0055A4"/><rect x="41.6667" y="25.0001" width="16.6666" height="34" fill="white"/><rect x="58.3333" y="25.0001" width="16.6667" height="34" fill="#EF4135"/></svg>
         <div>
-          <h1>le BonMot</h1>
+          <h1>le BonMot <span class="header-jeunes-text">Jeunes</span></h1>
           <p class="header-subtitle">Vokabeltrainer</p>
         </div>
       </header>
@@ -47,7 +66,11 @@ function hideSplash() {
 </template>
 
 <style scoped>
-/* NEUE STILE für den Splash Screen */
+/* Import der Schriftarten */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+/* Splash Screen Stile */
 .splash-screen {
     position: fixed;
     top: 0;
@@ -66,12 +89,16 @@ function hideSplash() {
     height: 250px;
     animation: fadeInLogo 1.5s ease-in-out;
 }
+.splash-logo .handwritten {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
 @keyframes fadeInLogo {
     from { opacity: 0; transform: scale(0.9); }
     to { opacity: 1; transform: scale(1); }
 }
 
-/* Bestehende Stile */
+/* App Shell Stile */
 .app-shell-container {
     width: 100%;
     min-height: 100vh;
@@ -100,9 +127,17 @@ function hideSplash() {
 }
 .header { background-color: #4A90E2; color: white; padding: 1.25rem 1.5rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .header .header-logo-svg { width: 40px; height: 40px; margin-right: 12px; }
-.header h1 { font-family: 'Merriweather', serif; font-size: 2rem; font-weight: 700; line-height: 1.1; }
+.header h1 { font-family: 'Merriweather', serif; font-size: 2rem; font-weight: 700; line-height: 1.1; display: inline-flex; align-items: baseline; }
 .header .header-subtitle { font-size: 0.875rem; opacity: 0.9; margin-top: 0.25rem; text-align: left; }
 footer { flex-shrink: 0; }
+
+/* Stil für den "Jeunes" Schriftzug im Header */
+.header .header-jeunes-text {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-left: 8px;
+}
 
 @media (min-width: 840px) {
   .app-shell {

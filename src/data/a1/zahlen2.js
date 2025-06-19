@@ -1,0 +1,20 @@
+export const zahlen2Vocab = [
+    { french: "vingt-et-un", german: "21", exampleFrench: "Mon frère a vingt-et-un ans.", exampleGerman: "Mein Bruder ist einundzwanzig Jahre alt." },
+    { french: "vingt-deux", german: "22", exampleFrench: "Ma rue est au numéro vingt-deux.", exampleGerman: "Meine Straße ist bei Nummer zweiundzwanzig." },
+    { french: "vingt-trois", german: "23", exampleFrench: "Il y a vingt-trois étudiants.", exampleGerman: "Es gibt dreiundzwanzig Studenten." },
+    { french: "vingt-quatre", german: "24", exampleFrench: "Le magasin est ouvert vingt-quatre heures sur vingt-quatre.", exampleGerman: "Das Geschäft ist vierundzwanzig Stunden geöffnet." },
+    { french: "vingt-cinq", german: "25", exampleFrench: "Aujourd'hui, il fait vingt-cinq degrés.", exampleGerman: "Heute sind es fünfundzwanzig Grad." },
+    { french: "vingt-six", german: "26", exampleFrench: "Le livre coûte vingt-six euros.", exampleGerman: "Das Buch kostet sechsundzwanzig Euro." },
+    { french: "vingt-sept", german: "27", exampleFrench: "Mon vol est à la porte vingt-sept.", exampleGerman: "Mein Flug ist am Gate siebenundzwanzig." },
+    { french: "vingt-huit", german: "28", exampleFrench: "Février a vingt-huit jours.", exampleGerman: "Der Februar hat achtundzwanzig Tage." },
+    { french: "vingt-neuf", german: "29", exampleFrench: "Il habite au numéro vingt-neuf.", exampleGerman: "Er wohnt bei Nummer neunundzwanzig." },
+    { french: "trente", german: "30", exampleFrench: "J’ai trente ans.", exampleGerman: "Ich bin 30 Jahre alt." },
+    { french: "quarante", german: "40", exampleFrench: "Mon père a quarante ans.", exampleGerman: "Mein Vater ist vierzig Jahre alt." },
+    { french: "cinquante", german: "50", exampleFrench: "Le billet coûte cinquante euros.", exampleGerman: "Die Eintrittskarte kostet fünfzig Euro." },
+    { french: "soixante", german: "60", exampleFrench: "Ma grand-mère a soixante ans.", exampleGerman: "Meine Großmutter ist sechzig Jahre alt." },
+    { french: "soixante-dix", german: "70", exampleFrench: "Le concert dure soixante-dix minutes.", exampleGerman: "Das Konzert dauert siebzig Minuten." },
+    { french: "quatre-vingts", german: "80", exampleFrench: "Le train roule à quatre-vingts kilomètres par heure.", exampleGerman: "Der Zug fährt mit achtzig Kilometern pro Stunde." },
+    { french: "quatre-vingt-dix", german: "90", exampleFrench: "Mon grand-père a quatre-vingt-dix ans.", exampleGerman: "Mein Großvater ist neunzig Jahre alt." },
+    { french: "cent", german: "100", exampleFrench: "La page est à la page cent.", exampleGerman: "Die Seite ist auf Seite hundert." },
+    { french: "avoir", german: "haben", exampleFrench: "J'ai un chien et un chat.", exampleGerman: "Ich habe einen Hund und eine Katze." }
+];

@@ -1,0 +1,22 @@
+export const imHausVocab = [
+    { french: "la chambre", german: "das Schlafzimmer", exampleFrench: "Je lis dans ma chambre.", exampleGerman: "Ich lese in meinem Schlafzimmer." },
+    { french: "le salon", german: "das Wohnzimmer", exampleFrench: "On regarde la télé dans le salon.", exampleGerman: "Wir schauen im Wohnzimmer fern." },
+    { french: "la cuisine", german: "die Küche", exampleFrench: "Maman prépare le dîner dans la cuisine.", exampleGerman: "Mama bereitet das Abendessen in der Küche vor." },
+    { french: "la salle de bains", german: "das Badezimmer", exampleFrench: "La douche est dans la salle de bains.", exampleGerman: "Die Dusche ist im Badezimmer." },
+    { french: "le bureau", german: "das Arbeitszimmer", exampleFrench: "Papa travaille dans le bureau.", exampleGerman: "Papa arbeitet im Arbeitszimmer." },
+    { french: "le rez-de-chaussée", german: "das Erdgeschoss", exampleFrench: "Le salon est au rez-de-chaussée.", exampleGerman: "Das Wohnzimmer ist im Erdgeschoss." },
+    { french: "le premier étage", german: "der erste Stock", exampleFrench: "Ma chambre est au premier étage.", exampleGerman: "Mein Zimmer ist im ersten Stock." },
+    { french: "la fenêtre", german: "das Fenster", exampleFrench: "J'ouvre la fenêtre.", exampleGerman: "Ich öffne das Fenster." },
+    { french: "une armoire", german: "ein Schrank", exampleFrench: "Mes vêtements sont dans l'armoire.", exampleGerman: "Meine Kleider sind im Schrank." },
+    { french: "une étagère", german: "ein Regal", exampleFrench: "Les livres sont sur l'étagère.", exampleGerman: "Die Bücher sind im Regal." },
+    { french: "un lit", german: "ein Bett", exampleFrench: "Le lit est dans la chambre.", exampleGerman: "Das Bett ist im Schlafzimmer." },
+    { french: "une table", german: "ein Tisch", exampleFrench: "On mange à table.", exampleGerman: "Wir essen am Tisch." },
+    { french: "une chaise", german: "ein Stuhl", exampleFrench: "Je suis assis sur une chaise.", exampleGerman: "Ich sitze auf einem Stuhl." },
+    { french: "une lampe", german: "eine Lampe", exampleFrench: "La lampe est sur le bureau.", exampleGerman: "Die Lampe ist auf dem Schreibtisch." },
+    { french: "un tapis", german: "ein Teppich", exampleFrench: "Il y a un tapis dans le salon.", exampleGerman: "Es gibt einen Teppich im Wohnzimmer." },
+    { french: "un canapé", german: "ein Sofa", exampleFrench: "Le chat dort sur le canapé.", exampleGerman: "Die Katze schläft auf dem Sofa." },
+    { french: "un ordinateur", german: "ein Computer", exampleFrench: "Je travaille sur mon ordinateur.", exampleGerman: "Ich arbeite an meinem Computer." },
+    { french: "un livre", german: "ein Buch", exampleFrench: "Je lis un livre intéressant.", exampleGerman: "Ich lese ein interessantes Buch." },
+    { french: "un mur", german: "eine Wand", exampleFrench: "Le poster est sur le mur.", exampleGerman: "Das Poster ist an der Wand." },
+    { french: "une BD (bande dessinée)", german: "ein Comic", exampleFrench: "J'aime lire des BD.", exampleGerman: "Ich lese gerne Comics." }
+];

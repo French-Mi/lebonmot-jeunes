@@ -1,0 +1,13 @@
+# netlify.toml
+
+[build]
+  # Dieser Befehl wird ausgeführt, um deine Seite zu bauen.
+  command = "npm run build"
+
+  # Dies ist der Ordner, der nach dem Bauen veröffentlicht wird.
+  # Für Vite-Projekte ist das immer der "dist"-Ordner.
+  publish = "dist"
+
+[context.production.environment]
+  # Setzt die Node.js-Version für die Produktion.
+  NODE_VERSION = "18"

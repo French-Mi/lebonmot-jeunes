@@ -1,0 +1,20 @@
+export const orteVocab = [
+    { french: "la gare", german: "der Bahnhof", exampleFrench: "Le train part de la gare.", exampleGerman: "Der Zug fährt vom Bahnhof ab." },
+    { french: "le parc", german: "der Park", exampleFrench: "Je me promène dans le parc.", exampleGerman: "Ich gehe im Park spazieren." },
+    { french: "la boulangerie", german: "die Bäckerei", exampleFrench: "J'achète du pain à la boulangerie.", exampleGerman: "Ich kaufe Brot in der Bäckerei." },
+    { french: "le supermarché", german: "der Supermarkt", exampleFrench: "On fait les courses au supermarché.", exampleGerman: "Wir kaufen im Supermarkt ein." },
+    { french: "le club de fitness", german: "das Fitnessstudio", exampleFrench: "Il va au club de fitness.", exampleGerman: "Er geht ins Fitnessstudio." },
+    { french: "le stade", german: "das Stadion", exampleFrench: "Le match est au stade.", exampleGerman: "Das Spiel ist im Stadion." },
+    { french: "le restaurant", german: "das Restaurant", exampleFrench: "Nous mangeons au restaurant ce soir.", exampleGerman: "Wir essen heute Abend im Restaurant." },
+    { french: "les toilettes (f. pl.)", german: "die Toilette", exampleFrench: "Où sont les toilettes, s'il vous plaît?", exampleGerman: "Wo ist die Toilette, bitte?" },
+    { french: "l’école (f)", german: "die Schule", exampleFrench: "Les enfants vont à l'école.", exampleGerman: "Die Kinder gehen zur Schule." },
+    { french: "le fleuve", german: "der Fluss", exampleFrench: "La Seine est un fleuve.", exampleGerman: "Die Seine ist ein Fluss." },
+    { french: "la mer", german: "das Meer", exampleFrench: "J'aime nager dans la mer.", exampleGerman: "Ich schwimme gerne im Meer." },
+    { french: "le lac", german: "der See", exampleFrench: "Le lac est très grand.", exampleGerman: "Der See ist sehr groß." },
+    { french: "la piscine", german: "das Schwimmbad", exampleFrench: "On va à la piscine quand il fait chaud.", exampleGerman: "Wir gehen ins Schwimmbad, wenn es warm ist." },
+    { french: "le cinéma", german: "das Kino", exampleFrench: "Je vais au cinéma pour voir un film.", exampleGerman: "Ich gehe ins Kino, um einen Film zu sehen." },
+    { french: "aller", german: "gehen, fahren", exampleFrench: "Je vais à Paris.", exampleGerman: "Ich fahre nach Paris." },
+    { french: "s’amuser", german: "sich amüsieren", exampleFrench: "On s'amuse bien à la fête.", exampleGerman: "Wir amüsieren uns gut auf der Feier." },
+    { french: "se retrouver", german: "sich treffen", exampleFrench: "On se retrouve devant le cinéma?", exampleGerman: "Treffen wir uns vor dem Kino?" },
+    { french: "ici", german: "hier", exampleFrench: "Le livre est ici, sur la table.", exampleGerman: "Das Buch ist hier, auf dem Tisch." }
+];
